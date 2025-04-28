@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: '/header-gathsession.github.io/',
+  base: '/header-gathsession-beauty.github.io/',
 })
