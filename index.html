@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/01c066aa24.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>GathSession.</title>
+  </head>
+  <body class="font-[poppins] backgroundColor">
+
+    <!-- HEADER Y NAVEGACION-->
+    <header class="h-[120px] ml-40 mr-64">
+      <nav
+        class="mx-auto flex justify-between pt-6 items-center"
+        aria-label="Global"
+      >
+        <div>
+          <a href="#" class="font-[Merriweather] text-[36px] font-bold">
+            <span class="primaryColor"
+              >Gath<span class="secundaryColor">Session</span>.</span
+            >
+          </a>
+        </div>
+        <div class="flex gap-[48px] font-normal text-[18px] subtitleColor">
+          <a href="#" class="link-animado">Home</a>
+          <a href="#" class="link-animado">Feactures</a>
+          <a href="#" class="link-animado">Blog</a>
+          <a href="#" class="link-animado">Contact</a>
+          <a href="#" class="link-animado">About Us</a>
+        </div>
+      </nav>
+    </header>
+    <!-- TITULO, SUBTITULO-->
+    <div class="flex">
+      <main class="ml-40">
+        <section class="w-[700px] mt-[96px] max-h-[539px]">
+          <h1
+            class="font-[Merriweather] secundaryColor text-[80px] font-bold leading-[100px] tracking-[0px]"
+          >
+            Build your best community starting from here.
+          </h1>
+          <h2
+            class="w-[648px] subtitleColor text-[24px] leading-[40px] tracking-[0px] font-normal mt-[24px]"
+          >
+            Meet and communicate with the best people to run projects, events or
+            other activities in a more effective and fun way
+          </h2>
+          <div class="mt-[48px]">
+            <a
+              href="#"
+              class="pt-[16px] pb-[17px] pr-[69px] pl-[68px] rounded-r-[16px] rounded-tl-[16px] bg-[var(--color-primario)] secundaryColor hover:bg-[#db2a6bbb] hover:font-semibold"
+              >Get Started</a
+            >
+            <a
+              href="#"
+              class="ml-[32px] underline text-white font-semibold hover:text-[var(--color-primario)] hover:no-underline"
+              >Learn More
+              <i class="fa-solid fa-arrow-right-long p-[6px]"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- BOTONES DE ACCION-->
+        <section>
+          <picture
+            class="flex mt-[144px] items-center gap-[48px] max-w-[616px]"
+          >
+            <div class="flex items-center text-white font-semibold">
+              <img
+                src="public/img/icon.svg"
+                alt=""
+                class="w-[64px] mr-[16px]"
+              />
+              <h3>Build Community</h3>
+            </div>
+            <div class="flex items-center text-white font-semibold">
+              <img
+                src="public/img/icon(1).svg"
+                alt=""
+                class="w-[64px] mr-[16px]"
+              />
+              <h3>Share Events</h3>
+            </div>
+            <div class="flex items-center text-white font-semibold">
+              <img
+                src="public/img/icon(2).svg"
+                alt=""
+                class="w-[64px] mr-[16px]"
+              />
+              <h3>Get Information</h3>
+            </div>
+          </picture>
+        </section>
+      </main>
+
+      <!-- IMAGENES-->
+      <picture class="flex p-0.5 mt-0 ml-[27px] gap-8 items-center relative w-screen min-h-screen overflow-hidden">
+        
+        <div class="absolute top-[17%] left-[0%] w-[1102px] h-[1102px] border border-[#E1E1E1] rounded-full z-[-10] opacity-25"></div>
+        <div class="absolute top-[45%] left-[25%] w-[850px] h-[850px] border border-[#E1E1E1] rounded-full z-[-10] opacity-25"></div>
+
+        <div class="w-[240px]">
+          <div
+            class="h-[509px] bg-[url('/img/persona1.svg')] bg-cover bg-center bg-[#6e1fed] rounded-[90px] mb-8 opacity-90 hover:opacity-100"
+          ></div>
+          <div
+            class="h-[240px] bg-[url('/img/persona2.svg')] bg-cover bg-center bg-[#db2a6b] rounded-[90px] opacity-90 hover:opacity-100"
+          ></div>
+        </div>
+
+        <div class="w-[240px]">
+          <div
+            class="h-[240px] bg-[url('/img/persona3.svg')] bg-cover bg-center bg-[#60d3d9] rounded-[90px] mb-8 opacity-90 hover:opacity-100"
+          ></div>
+          <div
+            class="h-[509px] bg-[url('/img/persona4.svg')] bg-cover bg-center bg-[#ff7e29] rounded-[90px] opacity-90 hover:opacity-100"
+          ></div>
+        </div>
+
+        <div
+          class="w-[240px] h-[509px] bg-[url('/img/persona5.svg')] bg-cover bg-center bg-[#f4b840] rounded-[90px] opacity-90 hover:opacity-100"
+        ></div>
+      </picture>
+
+    </div>
+  </body>
+</html>

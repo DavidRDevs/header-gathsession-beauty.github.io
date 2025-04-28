@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+    --color-primario: #db2a6b;
+    --color-secundario: #ffffff;
+    --color-subtitle: #95969b;
+    --color-bg: #2b2d38;
+  }
+
+  .primaryColor{
+    color: var(--color-primario);
+  }
+
+  .secundaryColor{
+    color: var(--color-secundario);
+  }
+
+  .subtitleColor{
+    color: var(--color-subtitle);
+  }
+
+  .backgroundColor{
+    background-color: var(--color-bg);
+  }
+
+  .btnColor{
+    background-color: var(--color-primario);
+  }
+
+/* Estilo creado con ChatGPT para dar con el resultado deseado en el nav*/
+
+  .link-animado {
+    @apply relative inline-block hover:text-white focus:text-white;
+  }
+  
+  .link-animado::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    height: 0.25rem; /* equivale a h-1 */
+    background-color: var(--color-primario);
+    width: 0;
+    transition: all 0.3s ease-out;
+  }
+  
+  .link-animado:hover::after,
+  .link-animado:focus::after {
+    width:60%;
+  }
+
+  
