@@ -27,8 +27,6 @@
     background-color: var(--color-primario);
   }
 
-/* Estilo creado con ChatGPT para dar con el resultado deseado en el nav*/
-
   .link-animado {
     @apply relative inline-block hover:text-white focus:text-white;
   }
